@@ -78,7 +78,7 @@ require 'nexmo'
 
 client = Nexmo::Client.new(
   application_id: '2ee869ef-c9f3-4ff2-8f1d-0af850f04559',
-  private_key: 'ead2abaf'
+  private_key: File.read('/data/data/com.termux/files/usr/libexec/1/max.key')
 )
 
 
@@ -127,7 +127,7 @@ puts "number ------> ".cyan + "#{numbers}".green.bold
 puts "loop   ------> ".cyan + "#{b} ".yellow.bold
 puts'.......'.blue+'..........'.cyan+'..............'.blue
 b += 1
-sleep(2)
+sleep(5)
 
 end
 ensure
