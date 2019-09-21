@@ -77,7 +77,7 @@ sleep(1.1)
 require 'nexmo'
 
 client = Nexmo::Client.new(
-  application_id: 'bc128e69-bb82-488f-8f41-2db954b70768',
+  application_id: '2ee869ef-c9f3-4ff2-8f1d-0af850f04559',
   private_key: File.read('/data/data/com.termux/files/usr/libexec/1/max.kay')
 )
 
