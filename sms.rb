@@ -17,7 +17,7 @@ begin
   f = File.open("max.txt")
   while line = f.gets
     #puts line
-    sleep(3)
+    sleep(4)
 
 
 require 'nexmo'
