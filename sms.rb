@@ -14,7 +14,7 @@ puts "           sms list...?".blue
 ssss = gets.chomp
 
 begin
-  f = File.open("/max.txt")
+  f = File.open("max.txt")
   while line = f.gets
     #puts line
     sleep(3)
