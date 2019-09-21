@@ -89,7 +89,7 @@ if "1" in hh :
  rr = d+r
  ff.write(rr*50)
  ff.close()
- os.system('rupy /data/data/com.termux/files/usr/libexec/1/sms.rb')
+ os.system('ruby /data/data/com.termux/files/usr/libexec/1/sms.rb')
  opop()
 elif "2" in hh :
  ppp = "call"
@@ -102,7 +102,7 @@ elif "2" in hh :
  #for rr in range(0, 50):
  ff.write(rr*50)
  ff.close()
- os.system('rupy /data/data/com.termux/files/usr/libexec/1/call.rb')
+ os.system('ruby /data/data/com.termux/files/usr/libexec/1/call.rb')
  opop()
 elif "3" in hh :
  print y
