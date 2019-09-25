@@ -21,10 +21,9 @@ begin
 
 
 require 'nexmo'
-
 client = Nexmo::Client.new(
-  api_key: "78c14800",
-  api_secret: "Mm6zggZYMhZjaw1j"
+  api_key: "760d12f0",
+  api_secret: "byoYftWOlh7zspKv"
 )
 
 #puts"""
